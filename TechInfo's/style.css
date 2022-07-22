@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: rgb(245, 241, 241);
+}
+
+#cabecalho {
+    background-color: rgb(68, 201, 194);
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu {
+    padding: 10px;
+}
+
+#pagina-inicial {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#conteudos {
+    width: 660px;
+    float: left;
+}
+
+.conteudos-pagina {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+#menu-lateral {
+    width: 240px;
+    float: right;
+}
+
+.conteudo-lateral {
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px dotted #ccc;
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: rgb(231, 230, 230);
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color:  rgb(68, 201, 194) ;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#cabecalho a:link, #cabecalho a:visited {
+    color: white;
+    padding: 8px 12px;
+}
+
+#cabecalho a:hover {
+    color:  rgb(68, 201, 194);
+    background: white;
+}
+
+h1 {
+    color:rgb(31, 129, 124);
+    font-size: 2.5em;
+}
+
+h2 {
+ color: rgb(31, 129, 124);
+
+}
+
+h3 {
+    color: rgb(31, 129, 124);
+    background: #ccc;
+    padding: 5px;
+}
+
+
+.branco {
+    color: white;
+}
+
+.data-publicacao {
+    font-size: 0.8em;
+    border-bottom: 1px solid f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
