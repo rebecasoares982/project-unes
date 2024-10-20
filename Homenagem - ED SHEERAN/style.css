@@ -1,0 +1,144 @@
+ body {
+ 	font-family: 'Poppins', sans-serif;
+ 	background-color: #ececec;
+ }
+
+ .navbar {
+ 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+
+ .card {
+ 	border: none;
+ 	transition: transform 0.3s ease;
+ }
+
+ .card:hover {
+ 	transform: scale(1.05);
+ }
+
+ section {
+ 	padding: 60px 0;
+ }
+
+ section h1,
+ section h3 {
+ 	font-weight: 700;
+ }
+
+ section.text-white {
+ 	background-color: #007bff;
+ 	color: white;
+ }
+
+ footer {
+ 	background-color: #00060D !important;
+ 	padding: 20px;
+ 	color: #fff;
+ }
+
+ .favicon {
+ 	width: 100px;
+ 	height: 100px;
+ 	border-radius: 50%;
+ }
+
+ .carousel-inner {
+ 	position: relative;
+ 	width: 100%;
+ 	overflow: hidden;
+ 	height: 480px;
+ }
+
+ .album-card {
+ 	border: none;
+ 	border-radius: 10px;
+ 	overflow: hidden;
+ 	transition: transform 0.3s ease;
+ 	height: 435px;
+ }
+
+ .album-card:hover {
+ 	transform: scale(1.05);
+ }
+
+ .album-img {
+ 	border-top-left-radius: 10px;
+ 	border-top-right-radius: 10px;
+ 	height: 250px;
+ 	object-fit: cover;
+ }
+
+ .btn {
+ 	border-radius: 50px;
+ 	padding: 10px 20px;
+ }
+
+ .card-body h5 {
+ 	font-weight: bold;
+ 	margin-bottom: 15px;
+ }
+
+ .card-body p {
+ 	color: #666;
+ }
+
+
+ .carousel-video-prev,
+ .carousel-video-next {
+ 	top: 50%;
+ 	transform: translateY(-50%);
+ 	width: 5%;
+ 	opacity: 0.7;
+ 	background-color: transparent;
+ 	border: none;
+ 	z-index: 1;
+ }
+
+ .carousel-video-prev:hover,
+ .carousel-video-next:hover {
+ 	opacity: 1;
+ }
+
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+ 	background-color: rgba(0, 0, 0, 0.5);
+ 	border-radius: 50%;
+ 	padding: 10px;
+ }
+
+ .carousel-control-prev-icon:hover,
+ .carousel-control-next-icon:hover {
+ 	background-color: rgba(0, 0, 0, 0.8);
+ }
+
+ .carousel-indicators {
+ 	bottom: -30px;
+ }
+
+ .carousel-indicators button {
+ 	width: 10px;
+ 	height: 10px;
+ 	border-radius: 50%;
+ 	background-color: #6c757d;
+ }
+
+ .carousel-indicators .active {
+ 	background-color: #99caff;
+ }
+
+ .carousel-video {
+ 	position: relative;
+ 	width: 100%;
+ 	overflow: hidden;
+ }
+
+ .carousel-indicators [data-bs-target] {
+ 	width: 20px;
+ 	height: 20px;
+ 	margin-top: 15px !important;
+ }
+
+ .bg-primary {
+ 	--bs-bg-opacity: 1;
+ 	background-color: rgb(5 24 47) !important;
+ }
