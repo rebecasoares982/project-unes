@@ -1,3 +1,3 @@
-# Projeto Curso Desenvolvimento WEB - HTML e CSS
+# Projeto Curso Desenvolvimento WEB - HTML
  
 1. Universidade UNES  
